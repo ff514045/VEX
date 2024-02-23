@@ -3,7 +3,7 @@ now = datetime.datetime.today()
 an = datetime.datetime.now()
 an2 = datetime.datetime(2025, 1, 4, 0, 00, 0)
 hours = (now.hour)
-code='NEW-FAST-FORYOU-0953'
+code='NEW-FAST-FORYOU-093'
 
 
 if an > an2 or an == an2:
@@ -17,7 +17,7 @@ else:
  
  print('\t\n\033[1;31m @i6PPPP الـــمـــطـــوࢪ   ')
  print('\n\033[1;37m جـاࢪي تـشـغـيـل الاداة ♡ ......')
- kilwa = '''''''''''print('𓏳'*50)'''''''''''
+ kilwa = '''''''''''print('𓏳'*50)''''''''''
  
  time.sleep(10)
  os.system('clear')

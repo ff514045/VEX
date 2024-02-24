@@ -1,7 +1,28 @@
 import os,requests,sys,time,datetime
 now = datetime.datetime.today()
 an = datetime.datetime.now()
-an2 = datetime.datetime(2024, 2,2,0,00)
+an2 = datetime.datetime(2024, 2, 26, 0, 00, 0)
+hours = (now.hour)
+
+
+if an > an2 or an == an2:
+ print("\n\033[1;31mThe Date : "+ str(an))
+ print("\n\033[1;31mThe Exp Date : "+ str(an2))
+ print('\n\033[1;31m  تـم ايـقـاف الاداة مـن طـࢪف الـمـطـوࢪ @i6PPPP')
+ time.sleep(1)
+ clock_emoji = ['🕛', '🕐', '🕑', '🕒', '🕓', '🕔', '🕕', '🕖', '🕗', '🕘', '🕙', '🕚']
+ exit(0)
+else: 
+ print("\n                             اشتراكك صالح لمدة                            ")
+ print("\033[1;31mالوقت حاليا : "+ str(an))
+ print('\n')
+ print('𓏳'*60)
+ print("\033[1;31m\nوقت الانتهاء : "+ str(an2))
+ print('')
+ print('𓏳'*60)
+ print('\t\n\033[1;31m @i6PPPP الـــمـــطـــوࢪ   ')
+ print('\n\033[1;37m جـاࢪي تـشـغـيـل الاداة ♡ ......')
+ kilwa = '''''''''''print('𓏳'*50)'''''''''''
 import os
 import sys
 import time
